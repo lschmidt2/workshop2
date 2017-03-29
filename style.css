@@ -1,0 +1,154 @@
+.container {
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+  color:white;
+  
+}
+
+#place-1 {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+}
+
+#place-2 {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  width: 100px;
+}
+
+#place-3 {
+  position: absolute;
+  top: 80px;
+  left: 450px;
+}
+
+#place-4 {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+}
+
+#place-5 {
+  position: absolute;
+  top: 170px;
+  left: 200px;
+}
+
+#place-6 {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  width: 900px;
+}
+
+#place-7 {
+  position: absolute;
+  top: 270px;
+  left: 600px;
+}
+
+#place-8 {
+  position: absolute;
+  top: 383px;
+  left: 170px;
+  width: 400px;
+}
+
+#place-9 {
+  position: absolute;
+  top: 420px;
+  left: 300px;
+}
+
+#place-10 {
+  position: absolute;
+  top: 360px;
+  left: 450px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  z-index: 4;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.hotpink {
+  background-color: hotpink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.crazy {
+  font-family: sans-serif;
+}
+
+#crazy-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+#crazy-2 {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  z-index: 0;
+}
+
+#crazy-1 {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  z-index: 0;
+}
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
